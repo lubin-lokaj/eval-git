@@ -1,0 +1,28 @@
+Récupération du dépôt distant sur le dépôt local : git clone https://github.com/lubin-lokaj/eval-git
+git config user.email "lubin.lokaj@gmail.com"
+git config user.name "lubin-lokaj"
+
+git branch lubin
+git checkout lubin
+
+git touch LOKAJ_Lubin_registre 
+
+git add LOKAJ_Lubin_registre
+
+git commit -m "création du registre et test"
+
+git push -u origin lubin 
+(ça a push sur ma branche les 3 fichiers de base plus le registre, j'ai décidé de supprimer la branche)
+
+git checkout main
+git branch -d lubin
+
+git push origin --delete lubin
+
+
+J'ai réessayé en créant un dossier registre avec le fichier dedans, mais ça a aussi mis les 3 fichiers de base. J'ai donc re supprimé
+
+git checkout main
+git branch -d lubin
+
+git push origin --delete lubin
