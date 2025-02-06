@@ -1,0 +1,24 @@
+@media screen and (max-width: 768px){
+    html {
+        margin: 0;
+        padding: 0;
+    }
+
+    header, main, section, article, nav, h1 {
+        width: 96%;
+        margin: 1%;
+        padding: 1%;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    nav a {
+        margin: 1%;
+        padding: 1%;
+        width: 46%;
+    }
+}
