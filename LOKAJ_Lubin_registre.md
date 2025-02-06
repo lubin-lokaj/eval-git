@@ -79,3 +79,16 @@ git add mobile.css
 git commit -m "Réalisation du fichier css pour mobile
 git push -u origin mobile-lubin
 ```
+
+
+Fusion des branches 
+
+```shell
+git checkout main
+git merge html_janis
+git merge html-andrea
+git merge branch_css_LEBIE
+git merge mobile-lubin
+```
+
+Pour celle d'andréa on a du forcer : `git merge NOM_DE_LA_BRANCHE_SOURCE --allow-unrelated-histories`
