@@ -63,3 +63,19 @@ git rm LOKAJ_Lubin_registre
 git commit -m "Suppression du fichier"
 git push -u origin mobile-lubin
 ```
+
+Récupération des fichiers html et du css 
+
+```shell
+git pull origin html_janis
+git pull origin html-andrea
+git pull origin branch_css_LEBIE
+```
+
+Réalisation du fichier mobile.css et envoi sur github
+
+```shell
+git add mobile.css
+git commit -m "Réalisation du fichier css pour mobile
+git push -u origin mobile-lubin
+```
