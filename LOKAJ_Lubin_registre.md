@@ -45,3 +45,21 @@ git add LOKAJ_Lubin_registre
 git commit -m "Création du fichier, ajout des premières manips et test"   
 git push -u origin mobile-lubin   
 ```
+
+J'ai changé l'extension d'un fichier txt à md (en ayant changé le contenu avant) `mv LOKAJ_Lubin_registre LOKAJ_Lubin_registre.md`
+
+J'ai remis ce fichier sur le git
+
+```shell
+git add LOKAJ_Lubin_registre.md
+git commit -m "Changement du contenu et de l'extension de txt à md"
+git push -u origin mobile-lubin
+```
+
+J'ai esnuite supprimé le fichier déjà existant sur git
+
+```shell
+git rm LOKAJ_Lubin_registre
+git commit -m "Suppression du fichier"
+git push -u origin mobile-lubin
+```
