@@ -1,0 +1,22 @@
+cd Document/
+mkdir evaluation-git
+cd evaluation-git
+git init
+ls -a 
+git remote add origin "https://github.com/lubin-lokaj/eval-git.git"
+git config user.email "andreagalap2006@gmail.com"
+git config user.name "andranios"
+git branch html-andrea
+git branch GALAP.andrea
+touch andrea.html
+git add andrea.html
+git commit -m "voici mes deux fichier html de voitures spécifique mazerati et ferari"
+git push -u origin html-andrea
+andranios
+mdp token
+touch registre.txt
+git add registre.txt
+git commit -m "voici mon registre de toutes les commandes que j'ai du taper"
+git push -u origin GALAP.andrea
+andranios
+mdp token
